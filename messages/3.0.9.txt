@@ -1,0 +1,95 @@
+Sublimerge has just been upgraded to version 3.0.9
+
+It is highly recommended to restart Sublime Text before use.
+------------------------------------------------------------
+
+
+What's new?
+===========
+
+Bug fixes:
+  - IMPORTANT! Fixed a bug that could cause the license information to be lost. As a result
+    of this fix you will need to install your license key once again. If you already have a
+    license for Sublimerge 2 installed, it will be imported automatically.
+    ----------------------------------------------------------------------------------------
+
+  - Fixed a bug that was causing a new line to be added or last character to be cut just before
+    EOF under certain circumstances.
+
+Improvements:
+  - Defined macros are now available in Command Pallette. Just start typing "Sublimerge"
+    in Command Palette to see them.
+    NOTE: This is turned on by default. If you notice a performance impact, you can easily
+    turn this feature off by using "macros_in_command_palette" setting.
+
+  - Added directories diff
+    You can run directories diff by selecting two directories in the Side Bar. Then you can
+    compare them using the command in Sublimerge context menu. Please read below for the
+    keyboard bindings available in directories diff.
+
+  - Restoring previous Sublime window layout on startup
+    When Sublimerge's window was closed as the last window, Sublime Text used to restore its
+    layout upon next startup. Now Sublimerge can detect such situation and restores the main
+    window to proper state.
+
+  - Improved Sublime Text integration
+    Now you can easily compare two files by selecting them in the Side Bar. You run the diff
+    exactly the same as directories diff.
+
+
+Please visit http://www.sublimerge.com/sm3/docs/ for more information.
+
+
+
+Simplified usage instructions
+=============================
+
+In file view:
+
+    [ctrl]+[alt]+[d]                      - display Quick Panel with Sublimerge commands available for current view
+
+
+In diff view:
+
+    Windows/Linux:
+
+    [ctrl]+[down]                         - select next change
+    [ctrl]+[up]                           - select previous change
+  * [ctrl]+[left]                         - copy selected change (or active line) to left from right
+  * [ctrl]+[right]                        - copy selected change (or active line) to right from left
+    [ctrl]+[shift]+[left]                 - copy all changes to left from right
+    [ctrl]+[shift]+[right]                - copy all changes to right from left
+
+    OS X:
+
+    [alt]+[down]                          - select next change
+    [alt]+[up]                            - select previous change
+  * [alt]+[left]                          - copy selected change (or active line) to left from right
+  * [alt]+[right]                         - copy selected change (or active line) to right from left
+    [alt]+[shift]+[left]                  - copy all changes to left from right
+    [alt]+[shift]+[right]                 - copy all changes to right from left
+
+    Common:
+
+    [f3]                                  - swap panels
+    [f5]                                  - recompare buffers
+
+  * - if change is selected the command will copy its whole contents, otherwise will copy only the focused line
+
+
+In directories diff view:
+
+    [down]                              - select next change
+    [up]                                - select previous change
+    [left]                              - copy file/directory from right to left
+    [right]                             - copy file/directory from left to right
+    [enter]                             - enter sub directory / compare text files
+    [backspace]                         - enter parent directory
+
+
+    OS X:
+
+    For convenience Sublimerge also supports standard OS X keyboard shortcuts for directories navigation:
+
+    [cmd]+[down]                        - enter sub directory / compare text files
+    [cmd]+[up]                          - enter parent directory

@@ -1,0 +1,131 @@
+Sublimerge has just been upgraded to version 3.0.10
+
+It is highly recommended to restart Sublime Text before use.
+------------------------------------------------------------
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!                                                                                                       !!
+!!                NOTE: THIS IS A BETA VERSION. PLEASE REPORT ANY BUGS YOU MAY ENCOUNTER.                !!
+!!                                                                                                       !!
+!!                                                                                                       !!
+!!     http://www.sublimerge.com/support.html                                support@sublimerge.com      !!
+!!                                                                                                       !!
+!!     Issue Tracker: https://bitbucket.org/borysforytarz/sublimerge-3/issues?status=new&status=open     !!
+!!                                                                                                       !!
+!!                                                                                                       !!
+!!                                                                                                       !!
+!!     Please visit http://www.sublimerge.com/sm3/docs/ for more information.                            !!
+!!                                                                                                       !!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+What's new?
+===========
+
+
+THE NEXT MILESTONE REACHED! WITH THIS RELEASE SUBLIMERGE 3 CHANGES ITS STATUS FROM ALPHA TO BETA! :)
+
+
+Bug Fixes:
+  - Fixed a bug with retrieving a file from given Git revision under Windows.
+
+Improvements:
+  - Added Changes Navigator
+    Added a menu that helps navigating through changes. Just press F4 in the diff window to bring it up.
+
+  - Added Mercurial support
+    Now you can use Sublimerge to work with Mercurial repositories.
+
+  - Open text diff in current window
+    Experimental feature. Now Sublimerge can open text diff in the current window instead of creating
+    a new one. This is not turned on by default. To try this, please set 'use_current_window' setting to 'true'.
+
+  - Cleanup after merge
+    After 3-way merge all temporary files created by VCS are now automatically removed. If you want to keep
+    those files, please change 'vcs_after_merge_cleanup' to 'false'.
+
+
+Please visit http://www.sublimerge.com/sm3/docs/ for more information.
+
+
+Please report any issues you may encounter using the form on http://www.sublimerge.com/support.html or
+Issue Tracker (https://bitbucket.org/borysforytarz/sublimerge-3/issues?status=new&status=open)
+
+
+
+Simplified usage instructions
+=============================
+
+In file view:
+
+    [ctrl]+[alt]+[d]                      - display Quick Panel with Sublimerge commands available for current view
+
+
+In diff view:
+
+    Windows/Linux:
+
+    [ctrl]+[down]                         - select next change
+    [ctrl]+[up]                           - select previous change
+  * [ctrl]+[left]                         - copy selected change (or active line) to left from right
+  * [ctrl]+[right]                        - copy selected change (or active line) to right from left
+    [ctrl]+[shift]+[left]                 - copy all changes to left from right
+    [ctrl]+[shift]+[right]                - copy all changes to right from left
+
+    OS X:
+
+    [alt]+[down]                          - select next change
+    [alt]+[up]                            - select previous change
+  * [alt]+[left]                          - copy selected change (or active line) to left from right
+  * [alt]+[right]                         - copy selected change (or active line) to right from left
+    [alt]+[shift]+[left]                  - copy all changes to left from right
+    [alt]+[shift]+[right]                 - copy all changes to right from left
+
+    Common:
+
+    [f3]                                  - swap panels
+    [f4]                                  - show changes navigator
+    [f5]                                  - recompare buffers
+
+  * - if change is selected the command will copy its whole contents, otherwise will copy only the focused line
+
+
+In directories diff view:
+
+    [down]                              - select next change
+    [up]                                - select previous change
+    [left]                              - copy file/directory from right to left
+    [right]                             - copy file/directory from left to right
+    [enter]                             - enter sub directory / compare text files
+    [backspace]                         - enter parent directory
+
+
+    OS X:
+
+    For convenience Sublimerge also supports standard OS X keyboard shortcuts for directories navigation:
+
+    [cmd]+[down]                        - enter sub directory / compare text files
+    [cmd]+[up]                          - enter parent directory
+
+
+Licensing
+=========
+
+Currently there is no need to buy a separate license for Sublimerge 3 while it is in beta. When Sublimerge 3 gets
+out of beta, you will need to purchase an upgrade. More information: http://www.sublimerge.com/sublimerge3.html
+
+
+More information
+================
+
+For more information, troubleshooting, customizing settings and more, please visit www.sublimerge.com
+
+
+By the way...
+=============
+
+Take a break from your work and play my BF's Draughts on your iOS device!
+Available on the App Store! :)
+
+http://www.bfdraughts.com/as/
+

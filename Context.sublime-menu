@@ -1,0 +1,138 @@
+[
+    { "caption": "-" },
+    {
+        "caption": "Sublimerge",
+        "children": [{
+            "command": "sublimerge_go_up"
+        }, {
+            "command": "sublimerge_go_down"
+        }, {
+            "caption": "-"
+        }, {
+            "command": "sublimerge_toggle_setting",
+            "args": {"setting": "three_way_navigate_all"},
+            "checkbox": true
+        }, {
+            "caption": "-"
+        }, {
+            "command": "sublimerge_copy",
+            "args": {"direction": [0, -1], "subject": "file", "action": "replace"}
+        }, {
+            "command": "sublimerge_copy",
+            "args": {"direction": [-1, 0], "subject": "file", "action": "replace"}
+        }, {
+            "command": "sublimerge_copy",
+            "args": {"direction": [0, -1], "subject": "section", "action": "replace"}
+        }, {
+            "command": "sublimerge_copy",
+            "args": {"direction": [-1, 0], "subject": "section", "action": "replace"}
+        }, {
+            "caption": "-"
+        }, {
+            "command": "sublimerge_copy",
+            "args": {"direction": [0, -1], "subject": "line", "action": "replace"}
+        }, {
+            "command": "sublimerge_copy",
+            "args": {"direction": [-1, 0], "subject": "line", "action": "replace"}
+        }, {
+            "caption": "-"
+        }, {
+            "command": "sublimerge_copy",
+            "args": {"direction": [0, -1], "subject": "all", "action": "replace"}
+        }, {
+            "command": "sublimerge_copy",
+            "args": {"direction": [-1, 0], "subject": "all", "action": "replace"}
+        }, {
+            "caption": "-"
+        }, {
+            "command": "sublimerge_copy",
+            "args": {"direction": [0, -1], "subject": "section", "action": "use_both"}
+        }, {
+            "command": "sublimerge_copy",
+            "args": {"direction": [-1, 0], "subject": "section", "action": "use_both"}
+        }, {
+            "caption": "-"
+        // }, {
+        //     "command": "sublimerge_copy",
+        //     "args": {"direction": [0, -1], "subject": "line", "action": "use_both"}
+        // }, {
+        //     "command": "sublimerge_copy",
+        //     "args": {"direction": [-1, 0], "subject": "line", "action": "use_both"}
+        // }, {
+        // "caption": "-"
+        }, {
+            "command": "sublimerge_compare_to_view"
+        }, {
+            "command": "sublimerge_compare_to_revision"
+        }, {
+            "command": "sublimerge_compare_to_snapshot"
+        }, {
+            "command": "sublimerge_compare_to_clipboard"
+        }, {
+            "command": "sublimerge_compare_selected_lines_in_views"
+        }, {
+            "command": "sublimerge_compare_revision_to_revision"
+        }, {
+            "command": "sublimerge_compare_selected_lines"
+        }, {
+            "command": "sublimerge_compare_selected_lines_to_clipboard"
+        }, {
+            "command": "sublimerge_show_changes_in_revision"
+        }, {
+            "caption": "-"
+        }, {
+            "command": "sublimerge_show_unsaved_changes"
+        }, {
+        //     "caption": "-"
+        // }, {
+        //     "command": "sublimerge_custom_comparison"
+        // }, {
+            "caption": "-"
+        }, {
+            "command": "sublimerge_toggle_setting",
+            "args": {"setting": "intraline_analysis"},
+            "checkbox": true
+        }, {
+            "command": "sublimerge_toggle_setting",
+            "args": {"setting": "ignore_crlf"},
+            "checkbox": true
+        }, {
+            "command": "sublimerge_toggle_setting",
+            "args": {"setting": "ignore_case"},
+            "checkbox": true
+        }, {
+            "command": "sublimerge_toggle_setting",
+            "args": {"setting": "ignore_whitespace", "value": "begin"},
+            "checkbox": true
+        }, {
+            "command": "sublimerge_toggle_setting",
+            "args": {"setting": "ignore_whitespace", "value": "middle"},
+            "checkbox": true
+        }, {
+            "command": "sublimerge_toggle_setting",
+            "args": {"setting": "ignore_whitespace", "value": "end"},
+            "checkbox": true
+        }, {
+            "caption": "-"
+        }, {
+            "command": "sublimerge_swap_view",
+            "checkbox": true
+        }, {
+            "caption": "-"
+        }, {
+            "command": "sublimerge_recompare"
+        }, {
+            "caption": "-"
+        }, {
+            "command": "sublimerge_take_snapshot"
+        }, {
+            "command": "sublimerge_replace_snapshot"
+        }, {
+            "command": "sublimerge_remove_snapshot"
+        }, {
+            "command": "sublimerge_restore_snapshot"
+        // }, {
+        //     "command": "sublimerge_nothing_to_show"
+        }]
+    }
+]

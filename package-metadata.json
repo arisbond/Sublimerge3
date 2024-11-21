@@ -1,0 +1,1 @@
+{"version": "3.0.33", "url": "http://www.sublimerge.com/sm3/", "platforms": ["*"], "sublime_text": ">=3083", "description": "Amazing side-by-side diff & merge tool to compare files and directories. Work with differences between text and revisions. Resolve merge conflicts. Supports Git, SVN, Mercurial and command line.", "dependencies": []}

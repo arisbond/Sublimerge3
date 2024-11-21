@@ -1,0 +1,11 @@
+Sublimerge has just been upgraded to version 3.0.1
+
+It is highly recommended to restart Sublime Text before use.
+------------------------------------------------------------
+
+
+What's new?
+===========
+
+- Fixed opening settings file
+  The commands from the menu were referring to Sublimerge Pro (2.x) settings files.

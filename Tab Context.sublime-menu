@@ -1,0 +1,63 @@
+[
+    {
+        "command": "sublimerge_compare_to_view",
+        "args": { "group": -1, "index": -1 }
+    }, {
+        "command": "sublimerge_compare_to_revision",
+        "args": { "group": -1, "index": -1 }
+    }, {
+        "command": "sublimerge_compare_to_snapshot",
+        "args": { "group": -1, "index": -1 }
+    }, {
+        "command": "sublimerge_compare_to_clipboard",
+        "args": { "group": -1, "index": -1 }
+    }, {
+        "command": "sublimerge_compare_selected_lines_in_views",
+        "args": { "group": -1, "index": -1 }
+    }, {
+        "command": "sublimerge_compare_revision_to_revision",
+        "args": { "group": -1, "index": -1 }
+    }, {
+        "command": "sublimerge_compare_selected_lines",
+        "args": { "group": -1, "index": -1 }
+    }, {
+        "command": "sublimerge_compare_selected_lines_to_clipboard",
+        "args": { "group": -1, "index": -1 }
+    }, {
+        "command": "sublimerge_show_changes_in_revision",
+        "args": { "group": -1, "index": -1 }
+    }, {
+        "caption": "-"
+    }, {
+        "command": "sublimerge_show_unsaved_changes",
+        "args": { "group": -1, "index": -1 }
+    }, {
+        "caption": "-"
+    }, {
+        "command": "sublimerge_take_snapshot",
+        "args": { "group": -1, "index": -1 }
+    }, {
+        "command": "sublimerge_replace_snapshot",
+        "args": { "group": -1, "index": -1 }
+    }, {
+        "command": "sublimerge_remove_snapshot",
+        "args": { "group": -1, "index": -1 }
+    }, {
+        "command": "sublimerge_restore_snapshot",
+        "args": { "group": -1, "index": -1 }
+    },
+
+    //DIFF VIEW
+       {
+        "caption": "-"
+    }, {
+        "command": "sublimerge_swap_view",
+        "checkbox": true
+    }, {
+        "caption": "-"
+    }, {
+        "command": "sublimerge_recompare"
+    }, {
+        "caption": "-"
+    }
+]

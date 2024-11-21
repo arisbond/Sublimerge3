@@ -1,0 +1,124 @@
+Sublimerge has just been upgraded to version 3.0.11
+
+It is highly recommended to restart Sublime Text before use.
+------------------------------------------------------------
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!                                                                                                       !!
+!!                NOTE: THIS IS A BETA VERSION. PLEASE REPORT ANY BUGS YOU MAY ENCOUNTER.                !!
+!!                                                                                                       !!
+!!                                                                                                       !!
+!!     http://www.sublimerge.com/support.html                                support@sublimerge.com      !!
+!!                                                                                                       !!
+!!     Issue Tracker: https://bitbucket.org/borysforytarz/sublimerge-3/issues?status=new&status=open     !!
+!!                                                                                                       !!
+!!                                                                                                       !!
+!!                                                                                                       !!
+!!     Please visit http://www.sublimerge.com/sm3/docs/ for more information.                            !!
+!!                                                                                                       !!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+What's new?
+===========
+
+
+Bug Fixes:
+  - Fixed an Macros issue. Now Macros takes into account the following settings:
+    git_executable_path, svn_executable_path and hg_executable_path
+
+  - Fixed hiding side bar when using use_current_window.
+    Sometimes the Side Bar was not being hidden properly and was remaining open.
+
+  - Fixed merge cleanup
+    Temporary files created by Git during merge was sometimes not cleaned-up properly.
+
+  - Fixed files loading issue
+    Files with "strange" characters were sometimes causing Sublimerge not to open diff window.
+
+
+
+Please visit http://www.sublimerge.com/sm3/docs/ for more information.
+
+
+Please report any issues you may encounter using the form on http://www.sublimerge.com/support.html or
+Issue Tracker (https://bitbucket.org/borysforytarz/sublimerge-3/issues?status=new&status=open)
+
+
+
+Simplified usage instructions
+=============================
+
+In file view:
+
+    [ctrl]+[alt]+[d]                      - display Quick Panel with Sublimerge commands available for current view
+
+
+In diff view:
+
+    Windows/Linux:
+
+    [ctrl]+[down]                         - select next change
+    [ctrl]+[up]                           - select previous change
+  * [ctrl]+[left]                         - copy selected change (or active line) to left from right
+  * [ctrl]+[right]                        - copy selected change (or active line) to right from left
+    [ctrl]+[shift]+[left]                 - copy all changes to left from right
+    [ctrl]+[shift]+[right]                - copy all changes to right from left
+
+    OS X:
+
+    [alt]+[down]                          - select next change
+    [alt]+[up]                            - select previous change
+  * [alt]+[left]                          - copy selected change (or active line) to left from right
+  * [alt]+[right]                         - copy selected change (or active line) to right from left
+    [alt]+[shift]+[left]                  - copy all changes to left from right
+    [alt]+[shift]+[right]                 - copy all changes to right from left
+
+    Common:
+
+    [f3]                                  - swap panels
+    [f4]                                  - show changes navigator
+    [f5]                                  - recompare buffers
+
+  * - if change is selected the command will copy its whole contents, otherwise will copy only the focused line
+
+
+In directories diff view:
+
+    [down]                              - select next change
+    [up]                                - select previous change
+    [left]                              - copy file/directory from right to left
+    [right]                             - copy file/directory from left to right
+    [enter]                             - enter sub directory / compare text files
+    [backspace]                         - enter parent directory
+
+
+    OS X:
+
+    For convenience Sublimerge also supports standard OS X keyboard shortcuts for directories navigation:
+
+    [cmd]+[down]                        - enter sub directory / compare text files
+    [cmd]+[up]                          - enter parent directory
+
+
+Licensing
+=========
+
+Currently there is no need to buy a separate license for Sublimerge 3 while it is in beta. When Sublimerge 3 gets
+out of beta, you will need to purchase an upgrade. More information: http://www.sublimerge.com/sublimerge3.html
+
+
+More information
+================
+
+For more information, troubleshooting, customizing settings and more, please visit www.sublimerge.com
+
+
+By the way...
+=============
+
+Take a break from your work and play my BF's Draughts on your iOS device!
+Available on the App Store! :)
+
+http://www.bfdraughts.com/as/
+
