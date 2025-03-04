@@ -1,9 +1,11 @@
-Sublimerge 3
+Sublimerge 3 (WINDOWS ONLY)
 =====================================
 
 ### Forked from [Sublimerge 3](https://packagecontrol.io/packages/Sublimerge%203)
 
 The purpose of this fork is to preserve sublimerge 3 as it has been taken down. website no longer exists so I will NOT link it for security reasons. I do not claim any ownership of this packge, all the credit goes to Borys Forytarz for thier work.
+
+___
 
 Sublimerge is not yet another diff plugin for Sublime Text. It is the most advanced, full-featured plugin which will turn your favorite editor into the professional diff and merge tool with amazing features! Your time is your money so no longer waste it. Forget switching again and again to external apps - now you get it all built-in!
 
