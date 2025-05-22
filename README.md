@@ -5,6 +5,10 @@ Sublimerge 3 (WINDOWS ONLY)
 
 The purpose of this fork is to preserve sublimerge 3 as it has been taken down. website no longer exists so I will NOT link it for security reasons. I do not claim any ownership of this packge, all the credit goes to Borys Forytarz for thier work.
 
+This branch attempts to decompile the original code purely to allow it to work with different python versions, considering that sublime text is depreciating p3.3 plugin host, as well as attempting to add compatibility for macos
+
+*NOTE*: The decompiler struggled to correctly decompile everything and I had to patch a few fixes so not all functionality is guaranteed to work as expected in this branch!
+
 ___
 
 Sublimerge is not yet another diff plugin for Sublime Text. It is the most advanced, full-featured plugin which will turn your favorite editor into the professional diff and merge tool with amazing features! Your time is your money so no longer waste it. Forget switching again and again to external apps - now you get it all built-in!
