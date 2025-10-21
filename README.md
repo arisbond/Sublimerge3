@@ -1,4 +1,4 @@
-Sublimerge 3 (WINDOWS ONLY)
+Sublimerge 3
 =====================================
 
 ### Forked from [Sublimerge 3](https://packagecontrol.io/packages/Sublimerge%203)
